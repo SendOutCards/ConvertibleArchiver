@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A28A52CA1CBDACDF006891A3"
-               BuildableName = "ConvertibleArchiver.framework"
-               BlueprintName = "ConvertibleArchiver"
-               ReferencedContainer = "container:ConvertibleArchiver.xcodeproj">
+               BlueprintIdentifier = "77A163C657BB80AEE79F86133AAEC84A"
+               BuildableName = "Pods_ConvertibleArchiver.framework"
+               BlueprintName = "Pods-ConvertibleArchiver"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A28A52D41CBDACE1006891A3"
-               BuildableName = "ConvertibleArchiverTests.xctest"
-               BlueprintName = "ConvertibleArchiverTests"
-               ReferencedContainer = "container:ConvertibleArchiver.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A28A52CA1CBDACDF006891A3"
-            BuildableName = "ConvertibleArchiver.framework"
-            BlueprintName = "ConvertibleArchiver"
-            ReferencedContainer = "container:ConvertibleArchiver.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A28A52CA1CBDACDF006891A3"
-            BuildableName = "ConvertibleArchiver.framework"
-            BlueprintName = "ConvertibleArchiver"
-            ReferencedContainer = "container:ConvertibleArchiver.xcodeproj">
+            BlueprintIdentifier = "77A163C657BB80AEE79F86133AAEC84A"
+            BuildableName = "Pods_ConvertibleArchiver.framework"
+            BlueprintName = "Pods-ConvertibleArchiver"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A28A52CA1CBDACDF006891A3"
-            BuildableName = "ConvertibleArchiver.framework"
-            BlueprintName = "ConvertibleArchiver"
-            ReferencedContainer = "container:ConvertibleArchiver.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

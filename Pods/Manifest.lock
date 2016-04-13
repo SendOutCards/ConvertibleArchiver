@@ -1,0 +1,15 @@
+PODS:
+  - Allegro (1.1.1)
+  - Convertible (1.0.7):
+    - Allegro (~> 1.1.0)
+
+DEPENDENCIES:
+  - Convertible (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  Allegro: 7644f86231450631fae8ce6baf2bb1d6f4c8fa22
+  Convertible: 0eac26e6c640acd086bd8d1ee075df36441a330a
+
+PODFILE CHECKSUM: 3fa7bdffe2c9761e95d643b4c3a7e4c495da6293
+
+COCOAPODS: 1.0.0.beta.3
