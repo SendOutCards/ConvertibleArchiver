@@ -52,7 +52,7 @@ public enum Archiver {
     
     private static var documentDirectory: String {
         if let directoryPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first {
-            return directoryPath
+            return directoryPath + "/"
         }
         return ""
     }
