@@ -1,11 +1,6 @@
-use_frameworks!
-
 target 'ConvertibleArchiver' do
+    use_frameworks!
     podspec
+    target 'ConvertibleArchiverTests' do
+    end
 end
-
-target 'ConvertibleArchiverTests' do
-    podspec
-end
-
-

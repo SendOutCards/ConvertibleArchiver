@@ -19,7 +19,7 @@ class ConvertibleArchiverTests: XCTestCase {
     }
     
     func testRestoreFromBundle() {
-        let bundle = NSBundle(identifier: "com.bradhilton.ConvertibleArchiverTests")
+        let bundle = Bundle(identifier: "com.bradhilton.ConvertibleArchiverTests")
         XCTAssert(Archiver.restore(key: "BundleData", bundle: bundle) == "Hello, world")
     }
     

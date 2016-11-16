@@ -8,28 +8,28 @@
 
 import Convertible
 
-public struct NilLiteral : NilLiteralConvertible {
+public struct NilLiteral : ExpressibleByNilLiteral {
     public init(nilLiteral: ()) {}
 }
 
 public enum Archiver {
     
-    public static func save<T : DataSerializable>(value value: T?, key: String) {
+    public static func save<T : DataSerializable>(value: T?, key: String) {
         guard let value = value else { remove(key: key); return }
-        _ = try? (try? value.serializeToData())?.writeToFile(filePath(key), options: [])
+        _ = try? (try? value.serializeToData())?.write(to: URL(fileURLWithPath: filePath(key)))
     }
     
-    public static func save(value value: NilLiteral, key: String) {
+    public static func save(value: NilLiteral, key: String) {
         remove(key: key)
     }
     
-    public static func remove(key key: String) {
-        _ = try? NSFileManager.defaultManager().removeItemAtPath(filePath(key))
+    public static func remove(key: String) {
+        _ = try? FileManager.default.removeItem(atPath: filePath(key))
     }
     
-    public static func restore<T : DataInitializable>(type type: T.Type = T.self, key: String, bundle: NSBundle? = nil) -> T? {
+    public static func restore<T : DataInitializable>(type: T.Type = T.self, key: String, bundle: Bundle? = nil) -> T? {
         do {
-            let data = try NSData(contentsOfFile: filePath(key), options: [])
+            let data = try Data(contentsOf: URL(fileURLWithPath: filePath(key)), options: [])
             return try T.initializeWithData(data)
         } catch {
             guard let bundle = bundle else { return nil }
@@ -37,21 +37,21 @@ public enum Archiver {
         }
     }
     
-    private static func restoreFromBundle<T : DataInitializable>(key key: String, bundle: NSBundle) -> T? {
-        guard let bundleFilePath = bundle.pathForResource(key, ofType: nil),
-            let data = NSData(contentsOfFile: bundleFilePath),
+    private static func restoreFromBundle<T : DataInitializable>(key: String, bundle: Bundle) -> T? {
+        guard let bundleFilePath = bundle.path(forResource: key, ofType: nil),
+            let data = try? Data(contentsOf: URL(fileURLWithPath: bundleFilePath)),
             let value = try? T.initializeWithData(data) else {
             return nil
         }
         return value
     }
     
-    private static func filePath(key: String) -> String {
+    private static func filePath(_ key: String) -> String {
         return documentDirectory + key
     }
     
     private static var documentDirectory: String {
-        if let directoryPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first {
+        if let directoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first {
             return directoryPath + "/"
         }
         return ""

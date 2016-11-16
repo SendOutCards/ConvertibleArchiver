@@ -1,6 +1,0 @@
-framework module Pods_ConvertibleArchiverTests {
-  umbrella header "Pods-ConvertibleArchiverTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
