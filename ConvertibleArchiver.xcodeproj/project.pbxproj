@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68B1E2DD245211CF52342F1B /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24DD54DD5B801D437D372B0 /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework */; };
+		6D56C589773E85322BF25B8B /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24DD54DD5B801D437D372B0 /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework */; };
 		A28A52CF1CBDACDF006891A3 /* ConvertibleArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = A28A52CE1CBDACDF006891A3 /* ConvertibleArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A28A52D61CBDACE1006891A3 /* ConvertibleArchiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A52CB1CBDACDF006891A3 /* ConvertibleArchiver.framework */; };
 		A28A52DB1CBDACE1006891A3 /* ConvertibleArchiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A52DA1CBDACE1006891A3 /* ConvertibleArchiverTests.swift */; };
@@ -15,7 +15,6 @@
 		A28A52E81CBDAE18006891A3 /* Archiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A52E71CBDAE18006891A3 /* Archiver.swift */; };
 		A28A52EC1CBDCECF006891A3 /* BundleData in Resources */ = {isa = PBXBuildFile; fileRef = A28A52E91CBDCE48006891A3 /* BundleData */; };
 		D4A34F8691679B5802558E6B /* Pods_ConvertibleArchiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF687EF1A611A8ADF27235F /* Pods_ConvertibleArchiver.framework */; };
-		DB192CA6230BC1146B82D0B9 /* Pods_ConvertibleArchiverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4832A63F6E270F395232A0BF /* Pods_ConvertibleArchiverTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,6 @@
 		2821D3E3206104D18D576375 /* Pods-ConvertibleArchiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiver/Pods-ConvertibleArchiver.debug.xcconfig"; sourceTree = "<group>"; };
 		4832A63F6E270F395232A0BF /* Pods_ConvertibleArchiverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertibleArchiverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD614B2926F203DF5FA93FC /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiver-ConvertibleArchiverTests/Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig"; sourceTree = "<group>"; };
-		5D08E14C577D8ED881ECC019 /* Pods-ConvertibleArchiverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiverTests/Pods-ConvertibleArchiverTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FF687EF1A611A8ADF27235F /* Pods_ConvertibleArchiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertibleArchiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		681FFAC6F6E30A56483C6D74 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiver-ConvertibleArchiverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiver-ConvertibleArchiverTests/Pods-ConvertibleArchiver-ConvertibleArchiverTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9454CBE7E27649D79F048FC0 /* Pods-ConvertibleArchiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiver.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiver/Pods-ConvertibleArchiver.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +44,6 @@
 		A28A52E71CBDAE18006891A3 /* Archiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archiver.swift; sourceTree = "<group>"; };
 		A28A52E91CBDCE48006891A3 /* BundleData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BundleData; path = ConvertibleArchiverTests/BundleData; sourceTree = SOURCE_ROOT; };
 		C24DD54DD5B801D437D372B0 /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A5BE9A957C11CE2415A0DF /* Pods-ConvertibleArchiverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertibleArchiverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertibleArchiverTests/Pods-ConvertibleArchiverTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28A52D61CBDACE1006891A3 /* ConvertibleArchiver.framework in Frameworks */,
-				68B1E2DD245211CF52342F1B /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework in Frameworks */,
-				DB192CA6230BC1146B82D0B9 /* Pods_ConvertibleArchiverTests.framework in Frameworks */,
+				6D56C589773E85322BF25B8B /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +123,6 @@
 			children = (
 				2821D3E3206104D18D576375 /* Pods-ConvertibleArchiver.debug.xcconfig */,
 				9454CBE7E27649D79F048FC0 /* Pods-ConvertibleArchiver.release.xcconfig */,
-				5D08E14C577D8ED881ECC019 /* Pods-ConvertibleArchiverTests.debug.xcconfig */,
-				D0A5BE9A957C11CE2415A0DF /* Pods-ConvertibleArchiverTests.release.xcconfig */,
 				681FFAC6F6E30A56483C6D74 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.debug.xcconfig */,
 				4FD614B2926F203DF5FA93FC /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig */,
 			);
@@ -494,7 +488,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 681FFAC6F6E30A56483C6D74 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ConvertibleArchiverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradhilton.ConvertibleArchiverTests;
@@ -507,7 +500,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD614B2926F203DF5FA93FC /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ConvertibleArchiverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradhilton.ConvertibleArchiverTests;

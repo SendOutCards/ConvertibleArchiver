@@ -11,16 +11,20 @@ import ConvertibleArchiver
 
 class ConvertibleArchiverTests: XCTestCase {
     
-    func testSaveValueWithKey() {
-        Archiver.save(value: "Brad", key: "Name")
-        XCTAssert(Archiver.restore(key: "Name") == "Brad")
-        Archiver.save(value: nil, key: "Name")
-        XCTAssert(Archiver.restore(type: String.self, key: "Name") == nil)
+    func testSaveValueWithKey() throws {
+        let key = "SQajUN4XZpWlRpVpBF6vlXzv4gA3"
+        try Archiver.save(value: "Brad", key: key)
+        XCTAssert(try Archiver.restore(key: key) == "Brad")
+        try Archiver.save(value: nil, key: key)
+        do {
+            _ = try Archiver.restore(type: String.self, key: key)
+            XCTFail()
+        } catch {}
     }
     
-    func testRestoreFromBundle() {
+    func testRestoreFromBundle() throws {
         let bundle = Bundle(identifier: "com.bradhilton.ConvertibleArchiverTests")
-        XCTAssert(Archiver.restore(key: "BundleData", bundle: bundle) == "Hello, world")
+        XCTAssert(try Archiver.restore(key: "BundleData", bundle: bundle) == "Hello, world")
     }
     
 }
