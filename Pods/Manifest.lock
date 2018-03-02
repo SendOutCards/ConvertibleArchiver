@@ -1,15 +1,15 @@
 PODS:
-  - Convertible (3.0.0):
-    - Reflection (~> 0.14.2)
-  - Reflection (0.14.2)
+  - Convertible (4.0.0):
+    - Reflection (~> 0.15.0)
+  - Reflection (0.15.0)
 
 DEPENDENCIES:
-  - Convertible (~> 3.0.0)
+  - Convertible (~> 4.0.0)
 
 SPEC CHECKSUMS:
-  Convertible: ac0ba82cab283455cef235c8e800dcdbc79ec644
-  Reflection: 057e621ce099cfb569bbd1ecaa84165e9c58e091
+  Convertible: 07b626e223d8e2198b3efe6a70bda011cc775f6a
+  Reflection: 25cb331157e0d2691271f6492216030acc58ff1e
 
 PODFILE CHECKSUM: 8df10a50936d086fa3dfc94da4dc352597addd4a
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.4.0
