@@ -1,20 +1,16 @@
 PODS:
-  - Convertible (4.2.0):
-    - Reflection (~> 0.18.0)
-  - Reflection (0.18.0)
+  - Convertible (5.0.1)
 
 DEPENDENCIES:
-  - Convertible (~> 4.2.0)
+  - Convertible (= 5.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Convertible
-    - Reflection
 
 SPEC CHECKSUMS:
-  Convertible: c912b733fa37bcf129e1a100d52ffeab59a78246
-  Reflection: 3baa5670837f450a6432b80bad5fc1cb99664665
+  Convertible: f59d5a0bf60a1b81fff6916b82af792b37faf0e4
 
 PODFILE CHECKSUM: 8df10a50936d086fa3dfc94da4dc352597addd4a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.beta.2

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60D2C92B7DB45EF7759E43FBAF1E905B"
+               BlueprintIdentifier = "C95F40DDC23104AA1AC5597523DB28F6"
+               BuildableName = "Convertible.framework"
                BlueprintName = "Convertible"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Convertible.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
