@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/bradhilton/ConvertibleArchiver"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Brad Hilton" => "brad@skyvive.com" }
-  s.source       = { :git => "https://github.com/bradhilton/ConvertibleArchiver.git", :tag => "0.5.0" }
+  s.source       = { :git => "https://github.com/bradhilton/ConvertibleArchiver.git", :tag => s.version }
   s.swift_version = '5.0'
 
   s.ios.deployment_target = "8.0"
