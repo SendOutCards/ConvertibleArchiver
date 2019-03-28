@@ -55,7 +55,7 @@
 		01CA9C18A62BCC7E1A8798C928CABBD6 /* Pods-ConvertibleArchiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvertibleArchiver-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0FC0819B5249C3681FD7294ABC26B66A /* Convertible.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Convertible.xcconfig; sourceTree = "<group>"; };
 		1AB9E996DE97001C7B2519ED1DC5E9D8 /* Convertible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Convertible.h; path = Convertible/Convertible.h; sourceTree = "<group>"; };
-		1BB3E82BE728F92E4D93512CDD8FFF21 /* Pods_ConvertibleArchiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvertibleArchiver.framework; path = "Pods-ConvertibleArchiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB3E82BE728F92E4D93512CDD8FFF21 /* Pods_ConvertibleArchiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertibleArchiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5955043EDA7E81061DBF5AC8ECDB6E /* Pods-ConvertibleArchiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvertibleArchiver-dummy.m"; sourceTree = "<group>"; };
 		2B2FF7C266F5C83EA046E964EEC96A7C /* NSData+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Convertible.swift"; path = "Convertible/Cocoa Extensions/NSData+Convertible.swift"; sourceTree = "<group>"; };
 		2B55C9773381FA537D52D10B692F4F5D /* Convertible-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Convertible-umbrella.h"; sourceTree = "<group>"; };
@@ -74,20 +74,20 @@
 		97801B14387AFFE38F56EA7234BD6BE6 /* DataConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataConvertible.swift; path = Convertible/DataConvertible/DataConvertible.swift; sourceTree = "<group>"; };
 		9C7FE08EE4F509BED41AAADACA86F794 /* Pods-ConvertibleArchiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvertibleArchiver.debug.xcconfig"; sourceTree = "<group>"; };
 		9D3637F304B6A479D062A6EC91F742E4 /* ConvertibleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConvertibleOptions.swift; path = Convertible/Options/ConvertibleOptions.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5309C6D497CE5E1052F57C90AF1E6F8 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvertibleArchiver-ConvertibleArchiverTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1716E1EF5DD5DF67C0FEBCD10A291B8 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvertibleArchiver-ConvertibleArchiverTests-frameworks.sh"; sourceTree = "<group>"; };
 		B1A00AA7E01A3059454B807BFBB608A3 /* Pods-ConvertibleArchiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConvertibleArchiver.modulemap"; sourceTree = "<group>"; };
 		B201880A9D0BD07722C6B9BC999C5C08 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvertibleArchiver-ConvertibleArchiverTests-dummy.m"; sourceTree = "<group>"; };
 		B7A895222339CD4885E597E4CCE952CF /* Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convertible.swift; path = Convertible/Convertible/Convertible.swift; sourceTree = "<group>"; };
-		BB3F6FE00A6ECAD473AC4BA73F0F0100 /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework; path = "Pods-ConvertibleArchiver-ConvertibleArchiverTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3F6FE00A6ECAD473AC4BA73F0F0100 /* Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertibleArchiver_ConvertibleArchiverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB803036D2B467D5543E93E9B64690E9 /* NSString+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+Convertible.swift"; path = "Convertible/Cocoa Extensions/NSString+Convertible.swift"; sourceTree = "<group>"; };
 		BE435ADC39B39DA3ABE8529F4106D29E /* Pods-ConvertibleArchiver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvertibleArchiver-Info.plist"; sourceTree = "<group>"; };
 		C1170A1BAE25E56071E67CAED81A73B5 /* ConvertibleOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConvertibleOption.swift; path = Convertible/Options/ConvertibleOption.swift; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1683A964C2259DF3E52F15DFF51E1D6 /* Pods-ConvertibleArchiver-ConvertibleArchiverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvertibleArchiver-ConvertibleArchiverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4B691B86288AF85CE43A822ED8710DD /* Convertible.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Convertible.modulemap; sourceTree = "<group>"; };
-		D5385154D62F03DDEB42D5B375A96BEC /* Convertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Convertible.framework; path = Convertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5385154D62F03DDEB42D5B375A96BEC /* Convertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Convertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C874AFB02DF651ED6396D5D17B75BF /* String+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Convertible.swift"; path = "Convertible/Swift Extensions/String+Convertible.swift"; sourceTree = "<group>"; };
 		D97851823A0F377A8069C54111156D13 /* NSNull+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNull+Convertible.swift"; path = "Convertible/Cocoa Extensions/NSNull+Convertible.swift"; sourceTree = "<group>"; };
 		E8E199B2ADCB50E53FCFFFA43344270D /* Convertible-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Convertible-prefix.pch"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				432DDD3DFFBF75FDF87BBF09F97942B1 /* UnderscoreToCamelCase.swift */,
 				0CDF4E3373FD8E68F9681282AEADC7DF /* Support Files */,
 			);
-			name = Convertible;
 			path = Convertible;
 			sourceTree = "<group>";
 		};
@@ -343,13 +342,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -613,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -710,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -759,8 +761,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
