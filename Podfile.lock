@@ -1,15 +1,15 @@
 PODS:
-  - Convertible (5.0.1)
+  - Convertible (5.0.2)
 
 DEPENDENCIES:
-  - Convertible (= 5.0.1)
+  - Convertible (= 5.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Convertible
 
 SPEC CHECKSUMS:
-  Convertible: f59d5a0bf60a1b81fff6916b82af792b37faf0e4
+  Convertible: a9606064b2139d1ed44d01881ba93c1148c4dbd4
 
 PODFILE CHECKSUM: 8df10a50936d086fa3dfc94da4dc352597addd4a
 

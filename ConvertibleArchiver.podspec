@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ConvertibleArchiver"
-  s.version      = "0.5.0"
+  s.version      = "5.0.1"
   s.summary      = "Archiving For DataConvertible Types"
   s.description  = <<-DESC
                     Lightweight tool for archiving types that conform to DataConvertible (see Convertible framework).
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = "ConvertibleArchiver", "ConvertibleArchiver/**/*.{swift,h,m}"
   s.requires_arc = true
-  s.dependency 'Convertible', '5.0.1'
+  s.dependency 'Convertible', '5.0.2'
 end
