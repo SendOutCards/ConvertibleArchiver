@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Convertible",
+        "repositoryURL": "https://github.com/paulofaria/Convertible.git",
+        "state": {
+          "branch": null,
+          "revision": "0aa35b2e2f579dbb3e0dc9730af14a8d1938eb02",
+          "version": "6.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -6,6 +6,7 @@
 //  Copyright © 2016 Brad Hilton. All rights reserved.
 //
 
+import Foundation
 import Convertible
 
 enum Error : Swift.Error {
