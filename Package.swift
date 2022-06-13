@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "ConvertibleArchiver", targets: ["ConvertibleArchiver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/paulofaria/Convertible.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/SendOutCards/Convertible.git", .upToNextMajor(from: "6.0.0")),
     ],
     targets: [
         .target(name: "ConvertibleArchiver", dependencies: ["Convertible"]),
