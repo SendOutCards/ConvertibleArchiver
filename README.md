@@ -6,7 +6,7 @@ Archiving for Convertible types
 You can build `ConvertibleArchiver` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `ConvertibleArchiver` as a package in your dependencies:
 
 ```swift
-.package(url: "https://github.com/paulofaria/ConvertibleArchiver.git", .upToNextMajor(from: "6.0.0")),
+.package(url: "https://github.com/SendOutCards/ConvertibleArchiver.git", .upToNextMajor(from: "6.0.0")),
 ```
 
 Be sure to import the module at the top of your .swift files:
